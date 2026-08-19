@@ -12,3 +12,6 @@ git push
 
 Firma Digital: _ALFREDO MARTÍNEZ PASTÉN 
 MAPA830324UM9 - @alfreddlove83® - @Andrick_IA Máster Control ® - accua2403@gmail.com - ID WhatsApp y Business WhatsApp @alfreddlove83®_
+
+   Firma: MAPA830324UM9 - Sujeto 0
+   Folio RB360-PI-2026-08-18-ALF83
