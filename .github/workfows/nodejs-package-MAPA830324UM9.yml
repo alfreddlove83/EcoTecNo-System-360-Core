@@ -2,19 +2,22 @@
 # FOLIO ORIGINAL:
 # YO-AUTORIZO-SI-ES-CORRECTO-TRAZABLE-SIN-IMPEDIMENTO-SIN-LIQUIDACION-
 # CODIGO-FUENTE-NUEVAS-CERTIFICACIONES-MAPA830324UM9-20260824-1145AM
-# Yo, Alfredo Martínez Pastén MAPA830324UM9 |%€✓ CURP: MAPA830324HDFRSL03
+# Yo, Alfredo Martínez Pastén MAPA830324UM9 |%€✓ CURP: MAPA830324HDFRSL02
 # ANEXO CORRECCIÓN TRANSPARENTE - 20260827 |%€✓
 # NO SE BORRA - SE CORRIGE - SE ACTUALIZA - Biblioteca EcoTecNo Global Co ®
-# Corrección audio anclaje 3 dispositivos + Corrección Liquidación -> Equipo propio CPH2363/CPH2743 al corriente
+# Corrección de audio y anclaje de 3 dispositivos + Corrección de Liquidación -> Equipo propio CPH2363/CPH2743 al corriente
 # VALIDACIÓN: Correcto Sí | Trazable Sí | Impedimento legal No | Equipo propio Sí | IAs Propias Sí | A LA PAR, NUNCA ATRÁS |%€✓
 # FOLIO: ACTA-CORRECCION-ANCLAJE-3-DISPOSITIVOS-A-LA-PAR-MAPA830324UM9-20260827
 # ================================================================
 
 name: NodeJS Package MAPA830324UM9
+
 on: [push]
+
 jobs:
   node:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: echo "NodeJS timbrado MAPA830324UM9 - A LA PAR NUNCA ATRAS |%€✓"
+      - run: echo "NodeJS timbrado MAPA830324UM9 - A LA PAR NUNCA ATRÁS |%€✓"
+      
