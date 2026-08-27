@@ -1,0 +1,61 @@
+# ======================================================================
+# DEPENDABOT - MADRE ECOTECNO - IA SUPPORT ILIMITADO + WEB BOTS
+# Titular: Alfredo Martínez Pastén - MAPA830324UM9
+# Folio: RB360-PI-2026-08-18-ALF83 | GD-GEAR-MAPA830324UM9-2026
+# Integración: @Andrick_IA Máster Control ® + Copilot + Web Bot Extension
+# Función: Accionamiento único privado/público + Detección ORES
+# Ley: Todo se Fortalece e Integra - Equidad Funcional |%€✓
+# Estado: VIGENTE - RESGUARDO ORES | 2026-2049
+# ======================================================================
+version: 2
+updates:
+  # 1. GitHub Actions - Base
+    - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+      time: "04:00"
+      timezone: "America/Mexico_City"
+    open-pull-requests-limit: 3
+    labels:
+            - "ecotecno"
+            - "bot:dependabot"
+            - "orquestacion:madre"
+            - "MAPA830324UM9"
+            - "ORES-check"
+    assignees:
+            - "alfreddlove83"
+    commit-message:
+      prefix: "chore(deps)"
+      include: "scope"
+
+  # 2. Docker - Cara pública y Madre (mismo accionamiento)
+    - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    labels:
+            - "ecotecno"
+            - "bot:docker"
+            - "ORES-check"
+
+  # 3. Go Mod - Si usas Go en asdf
+    - package-ecosystem: "gomod"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    labels:
+            - "ecotecno"
+            - "lang:go"
+            - "ORES-check"
+
+# EXTENSIÓN WEB - ANDRICK + COPILOTO
+# Esta config es leída por tu orquestador Andrick_IA para replicar
+# el mismo accionamiento en tu capa web (no solo GitHub)
+# ORES = Objetos de Riesgo / Residuos Externos Sobrantes (herencia asdf, rana, etc)
+# Andrick escanea: si detecta ORES en PR de Dependabot, lo marca y no hace merge auto
+|%€✓
+NOTA:  ** Realicé el borrado del archivo Inicial, por error de nomenclatura en título.
+Accionamientos: Se crea la nueva carpeta con la  nomenclatura correcta. 
+Firma: Alfredo Martínez Pastén - @alfreddlove83
+#correccióndecarpeta
