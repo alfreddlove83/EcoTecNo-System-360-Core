@@ -1,3 +1,87 @@
+LICENCIA DUAL ECOTECNO GLOBAL CO ®
+=====================================
+Copyright © 2004-2049 Alfredo Martínez Pastén
+RFC: MAPA830324UM9 |%€✓
+GitHub: @alfreddlove83 | @Openboy83
+GitLab: @Openboy83 / groups/ecotecno
+Email: accua2403@gmail.com
+Empresa: ALFREDO MARTÍNEZ PASTÉN INC ®
+Corporación: EcoTecNo Global Co ®
+Fecha base: 01/09/2026 — Tlalpan, CDMX, México
+
+LICENCIAS APLICABLES:
+- Apache License 2.0 (capa open-source de lectura, estudio y referencia)
+- Licencia Dual EcoTecNo Global Co ® Híbrid System 360° ®
+
+TÉRMINOS Y CONDICIONES:
+
+1. DERECHOS DE AUTOR
+   Todo el contenido, código, obras creativas, agentes IA, modelos de lenguaje,
+   aplicaciones, música, podcast, videos, diseños, documentación y cualquier
+   producción intelectual del ecosistema está protegido por derechos de autor
+   desde el año 2004 hasta 2049.
+   Titular exclusivo: Alfredo Martínez Pastén (RFC MAPA830324UM9).
+
+2. USUARIOS Y ALIASES RECONOCIDOS LEGALMENTE
+   @alfreddlove83 | @Openboy83 | @alfreddlove | @martinezpastenalfredo | @amp | @mpa
+   A, ALFREDO, ALF, ALF83, AMP, MPA, MP, FREDDY, FEYO y todas sus variantes
+   (con o sin acentos, con # o @).
+
+3. CÓDIGO FUENTE ABIERTO (CAPA APACHE)
+   El código fuente se distribuye bajo Apache 2.0 permitiendo su uso, estudio
+   y referencia pública con atribución obligatoria al titular.
+
+4. USO PERMITIDO
+   ✓ Lectura pública (INMUTABLE)
+   ✓ Referencia académica con atribución completa
+   ✓ Revisión por cualquier persona o entidad
+   ✓ Fork con atribución completa al titular
+
+5. USO RESTRINGIDO
+   ✗ Modificación del código fuente base sin autorización expresa del propietario
+   ✗ Distribución comercial sin licencia expresa adicional
+   ✗ Eliminación de créditos de autoría
+   ✗ Uso de agentes IA sin reconocer autoría
+
+6. INTEGRACIONES REGISTRADAS
+   Meta / WhatsApp Business: @alfreddlove83
+   GitLab AI Catalog: Andrick Gitlab Control 360° ®
+   GitHub: github.com/alfreddlove83
+   GitLab: gitlab.com/Openboy83 y gitlab.com/groups/ecotecno
+
+7. OBRAS PROTEGIDAS
+   - Música y canciones (YouTube)
+   - Mini Podcast (YouTube)
+   - Mini Relatos del Legado
+   - Aplicaciones desarrolladas
+   - Agentes IA y Modelos de Lenguaje
+   - Modelos de Negocio
+   - Código fuente mejorado Open Source
+   - Toda documentación del ecosistema
+
+8. FILOSOFÍA BAU 360°
+   NO SE BORRA, SE CORRIGE, SE REVISA, SE ACTUALIZA.
+   TODO SE DOCUMENTA Y SE DEJA PÚBLICO SOLO COMO LECTURA (INMUTABLE)
+   PARA REVISIÓN DE CUALQUIER PERSONA O ENTIDAD QUE LO REQUIERA.
+
+9. DISPOSITIVOS NÚCLEO CERTIFICADOS
+   NUCLEO_01: OPPO Reno7 — CERTIFIED
+   NUCLEO_02: OPPO Reno14F ColorOS16 — CERTIFIED_PRIMARY
+
+10. JURISDICCIÓN
+    Tlalpan, Ciudad de México, México
+    Ley aplicable: Legislación Mexicana + Tratados Internacionales de Propiedad Intelectual
+
+HASH DE CERTIFICACIÓN:
+ETN-360-MAPA830324-20260905-LICENSE |%€✓
+
+© Copyright 2004-2049 Alfredo Martínez Pastén
+ALFREDO MARTÍNEZ PASTÉN INC ® | EcoTecNo Global Co ®
+
+## HISTORIAL DE ACTUALIZACIONES
+- 2026-09-05 — Actualización DUAL_OPPO_BUILD MAPA830324UM9
+- 2026-09-06 — Estandarización y limpieza de texto para todos los repos del ecosistema
+
 # LICENCIA DUAL V6.1 ACCESIBLE - EcoTecNo Global Co
 © ALFREDDLOVE83 | MAPA830324UM9 | Sujeto 0
 Folio: GD-GEAR-MAPA830324UM9-2026 | Vigencia: 2004-2049
