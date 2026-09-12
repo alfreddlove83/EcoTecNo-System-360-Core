@@ -1,9 +1,0 @@
-# Escudo Protocol Shadow Control 360 ®
-.env
-__pycache__/
-*.pyc
-*.log
-.DS_Store
-venv/
-node_modules/
-config_local.json
