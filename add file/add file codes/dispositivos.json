@@ -1,0 +1,19 @@
+{
+  "dispositivos": [
+    {
+      "modelo": "CPH2743",
+      "rol": "Principal - Desarrollo - Repo Madre",
+      "os": "Android 17 Beta 3 Experimental Estable",
+      "redes": ["WiFi IZZI", "Móviles A&AT"],
+      "estado": "MODO EXPERIMENTAL ESTABLE",
+      "ubicacion": "CP Fiscal 03020"
+    },
+    {
+      "modelo": "CPH2363",
+      "rol": "Secundario - Respaldo y Validación",
+      "vinculacion": "Hardware vinculada por HADWER a CPH2743",
+      "estado": "SINCRONIZADO",
+      "ubicacion": "CP Físico 14640"
+    }
+  ]
+}
