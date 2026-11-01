@@ -1,6 +1,4 @@
-TERMINALES AUTORIZADAS Y VIGENTES:
-- CPH2363 = OPPO Reno 7 | ColorOS 14 | TapTap v17.B2 | Cert Headwear + Software | Garantía Vigente
-- CPH2743 = OPPO Reno 14F | ColorOS 16 | TapTap v17.B2 | Cert Headwear + Software | Garantía Vigente
+EcoTecNo // [DDMMAAAA_HH:MM] // [TITULO_TEMA] // [TERMINAL_ORIGEN_DETECTADA]
 
 ### 📝 REGISTRO DE TRAZABILIDAD: ECOTECNO-[ID_FOLIO]
 
