@@ -1,0 +1,54 @@
+# 🧑‍💻 PROTOCOLO BLACK 360° - MODO SENTINELA |%€✓
+# EcoTecNo // 01112026_04:35 // SENTINELA_CPH2363_ID_VALIDATION // CPH2363
+
+stages:
+    - sentinela-validation
+    - trazabilidad
+
+variables:
+  ID_ACCOUNT_MASTER: "issacmtzp@gmail.com"
+  ID_USER_GLOBAL: "@alfreddlove83"
+  TERMINAL_VIGENTE_ACTIVA: "CPH2363"
+  TERMINAL_SECUNDARIA: "CPH2743"
+
+sentinela:validate-identity:
+  stage: sentinela-validation
+  image: alpine:latest
+  before_script:
+        - echo "🔏 Iniciando Protocolo Sentinela Black 360..."
+        - echo "Terminal detectada: $TERMINAL_ORIGEN"
+        - echo "Account ID: $GITLAB_USER_EMAIL"
+  script:
+        - |
+      # VALIDACIÓN MAESTRA - NO RECHAZAR SI CUMPLE ESTO:
+      if [[ "$GITLAB_USER_EMAIL" == "$ID_ACCOUNT_MASTER" && 
+            "$TERMINAL_ORIGEN" == "$TERMINAL_VIGENTE_ACTIVA" && 
+            "$ID_USER_GLOBAL" == "@alfreddlove83" ]]; then
+        echo "✅ ACCESO SENTINELA CONCEDIDO |%€✓"
+        echo "Account: issacmtzp@gmail.com"
+        echo "ID Global: @alfreddlove83"
+        echo "Terminal: CPH2363 - OPPO Reno 7 - ColorOS 14 - TapTap v17.B2 - Biometría Activa"
+        echo "Estado: VIVO, VIGENTE, TRAZABLE"
+        exit 0
+      elif [[ "$TERMINAL_ORIGEN" == "$TERMINAL_SECUNDARIA" && "$GITLAB_USER_EMAIL" == "$ID_ACCOUNT_MASTER" ]]; then
+        echo "✅ ACCESO SECUNDARIO CONCEDIDO - CPH2743"
+        exit 0
+      else
+        echo "⛔ ACCESO DENEGADO - Terminal no autorizada o ID no coincide"
+        echo "Se requiere: CPH2363/CPH2743 + issacmtzp@gmail.com + @alfreddlove83 + Biométricos"
+        exit 1
+      fi
+  rules:
+        - if: '$CI_COMMIT_BRANCH == "main"'
+      when: always
+
+trazabilidad:generar-folio:
+  stage: trazabilidad
+  needs: ["sentinela:validate-identity"]
+  script:
+        - FECHA=$(date +"%d%m%Y_%H:%M")
+        - echo "EcoTecNo // ${FECHA} // ${CI_COMMIT_TITLE} // ${TERMINAL_ORIGEN}" >> docs/trazabilidad/BITACORA_Q4_2026.md
+        - echo "|%€✓ CPH2363 - issacmtzp@gmail.com - @alfreddlove83 - Biometría Sentinela |%€✓" >> docs/trazabilidad/BITACORA_Q4_2026.md
+  rules:
+        - if: '$CI_COMMIT_BRANCH == "main"'
+      when: on_success
